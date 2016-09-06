@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Test Cookies and post method</title>
+<title>Test Cookies and post or get method</title>
 </head>
 <body>
 <h1>User Login</h1>
