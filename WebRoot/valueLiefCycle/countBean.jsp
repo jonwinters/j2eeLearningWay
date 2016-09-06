@@ -17,7 +17,7 @@
 
 <p>the number alive in session is :
 <jsp:getProperty property="count" name="countBean_session"/>
-</p><%--这个关闭浏览器之后，session会话改变，此变量就会被重置 --%>
+</p><%--这个关闭浏览器之后，TCP连接被关闭，TCP重新连接session会话改变，此变量就会被重置 --%>
 
 <p>the number alive in request is:
 <jsp:getProperty property="count" name="countBean_request"/>
